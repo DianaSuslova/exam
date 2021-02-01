@@ -1,15 +1,58 @@
+body{
+    background-image: url(poly.png);
+    background-color: #ececec;
+    background-position: 150px 70px;
+}
+.color{
+    position: absolute;
+    top: -10px;
+}
 h1{
     position: relative;
-    top: -80px;
+    top: -90px;
     right: -220px;
+}
+.logo{
+    position: relative;
+    top: -10px;
 }
 .info{
     position: relative;
-    top: -140px;
+    top: -150px;
     right: -1050px;
 }
 p{
     position: relative;
-    top: -200px;
+    top: -210px;
     right: -1100px;
+}
+label{
+    font-family: Arial; 
+    font-size: 130%; 
+    font-weight: 200;
+    color: rgb(65, 64, 64);
+    position: relative;
+    top: -200px;
+    right: -170px;
+}
+input[type=text] {
+    color: gray;
+    padding: 10px 12px;
+    margin: 10px;
+    position: relative;
+    top: -200px;
+    right: -170px;
+}
+input[type=button] {
+    background-color: rgb(226, 81, 81);
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    position: relative;
+    top: -30px;
+    right: -300px;
+    position: relative;
+    top: -250px;
+    right: -520px;
+    border-radius: 10px;
 }

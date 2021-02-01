@@ -3,6 +3,7 @@ body{
     background-color: #ececec;
     background-position: 150px 70px;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .color{
     position: absolute;
@@ -51,4 +52,46 @@ input[type=button]:hover ~ {
 }
 .knop {
     margin-left:10vw;
+}
+.colons {
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 10vw;
+    padding-right:10vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul {
+    padding: 5px;
+}
+.perv, .vtor, .tret {
+    width: 23%;
+    background-color: #fff;
+    overflow-y: scroll;
+    height: 80vh;
+}
+.perv h3, .vtor h3, .tret h3 {
+    padding-left: 20px;
+}
+.perv ul li, .vtor ul li, .tret ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+.buttons button {
+    border-radius: 20px;
+    padding: 8px 10px 8px 10px;
+    background-color: black;
+    margin-right: 7px;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+} 
+h5 {
+    text-align: center;
+    font-weight: 400;
 }
